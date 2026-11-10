@@ -1,5 +1,8 @@
 # Monitor de bateria Logitech G435
 
+<img width="449" height="229" alt="image" src="https://github.com/user-attachments/assets/2252574a-7fc7-484a-9816-c16836fe9233" />
+
+
 Aplicativo simples para consultar a tensão da bateria do Logitech G435 conectado
 ao computador pelo receptor USB LIGHTSPEED. O nível em porcentagem é estimado;
 não é uma leitura oficial de carga.
