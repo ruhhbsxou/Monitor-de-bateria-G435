@@ -1,0 +1,53 @@
+Monitor de bateria Logitech G435
+================================
+
+Como usar
+---------
+1. Conecte o receptor USB LIGHTSPEED do G435.
+2. Ligue o headset e aguarde alguns segundos.
+3. Execute "Iniciar-G435.vbs" para abrir sem uma janela de console.
+   Se preferir, "Iniciar-G435.bat" tambem inicia o monitor.
+4. O monitor abre como uma janela compacta no canto inferior direito, sem a
+   barra branca do Windows. Arraste pelo topo escuro para mover; use "—" para
+   minimiza-lo na barra de tarefas e "×" para fecha-lo.
+5. Clique em "Atualizar" para consultar a bateria; nao ha consultas automaticas.
+
+Logo
+----
+A pasta "material" contem a logo do monitor em PNG e SVG, alem do icone do
+aplicativo em ICO. O PNG aparece na janela e o ICO e usado como icone do
+aplicativo na barra de tarefas.
+
+Compatibilidade
+---------------
+- Windows 10/11 com Windows PowerShell.
+- Receptor USB LIGHTSPEED Logitech G435 com identificador 046D:0ACB ou 046D:0ADF.
+- O headset precisa estar ligado e conectado ao receptor; Bluetooth sozinho
+  nao fornece os dados lidos por este programa.
+
+Precisao
+--------
+O receptor informa a tensao da bateria, nao uma porcentagem oficial de carga.
+O percentual mostrado e uma estimativa e pode variar, especialmente durante
+a carga por USB.
+
+Privacidade
+-----------
+O programa funciona localmente, nao usa G HUB e nao envia dados pela internet.
+
+Problemas
+---------
+- "Receptor nao encontrado": confirme que o dongle USB LIGHTSPEED esta conectado
+  diretamente ao computador e reinicie o monitor.
+- "Headset nao respondeu": com o G435 ligado, segure o botao Mudo por 3 segundos
+  para alternar o modo. O LED ciano por 5 segundos indica LIGHTSPEED; azul indica
+  Bluetooth. Se acender azul, repita para voltar a LIGHTSPEED. O LED confirma
+  o modo, mas nao o pareamento com o receptor. Confirme tambem que a saida de som
+  selecionada no Windows e o G435 conectado pelo receptor USB, nao Bluetooth.
+  Se continuar sem resposta, desligue o headset, desconecte o receptor USB por
+  10 segundos, reconecte-o diretamente ao PC e ligue o headset novamente.
+  A leitura da bateria nao funciona via Bluetooth.
+- No receptor 046D:0ACB, consultar a bateria pode interromper o audio por um
+  instante enquanto o receptor muda de modo. O monitor nao consulta
+  automaticamente para evitar pausas inesperadas; cada clique em "Atualizar"
+  ainda pode causar uma breve interrupcao.
